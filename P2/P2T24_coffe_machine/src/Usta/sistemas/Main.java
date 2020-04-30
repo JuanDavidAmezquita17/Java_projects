@@ -12,9 +12,8 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
 
         f_menu();
-        System.out.println(" ");
-        System.out.println("What is the value of the money bill that you are going to deposit?");
-        int m_bill = keyboard.nextInt();
+
+        int m_bill = f_bill();
 
         f_menu_2();
         System.out.println(" ");
@@ -31,20 +30,19 @@ public class Main {
         boolean sugar = keyboard.nextBoolean();
 
 
-
-        if (product == 1){
+        if (product == 1) {
             f_aromatica(m_bill, sugar);
-        }else{
-            if (product == 2){
-                f_cafe_negro(m_bill,sugar);
-            }else{
-                if (product == 3){
-                    f_cafe_con_leche(m_bill,sugar);
-                }else{
-                    if (product == 4){
-                        f_capuchino(m_bill,sugar);
-                    }else{
-                        f_mocachino(m_bill,sugar);
+        } else {
+            if (product == 2) {
+                f_cafe_negro(m_bill, sugar);
+            } else {
+                if (product == 3) {
+                    f_cafe_con_leche(m_bill, sugar);
+                } else {
+                    if (product == 4) {
+                        f_capuchino(m_bill, sugar);
+                    } else {
+                        f_mocachino(m_bill, sugar);
                     }
                 }
             }
@@ -79,104 +77,126 @@ public class Main {
         System.out.println("╚═══════════════════════════════════════════════════════════════════════════════════════════════╝");
     }
 
+    public static int f_bill() {
+        //Description: This method ask for the bill
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println(" ");
+        System.out.println("What is the value of the money bill that you are going to deposit?");
+        int m_bill = keyboard.nextInt();
+
+        return m_bill;
+
+    }
+
     public static void f_aromatica(int m_bill, boolean sugar) {
         //Description: process for the aromatica
         int value = 1300;
 
-        int e_money = m_bill - value;
-
-        if (e_money < 0) {
+        while (m_bill < 1300) {
             System.err.println("Error: sorry, but you don't have the enough money for this product");
-            System.out.println("Do again the process");
-        } else {
-            System.out.println("Product: aromática");
-            System.out.println("Time of creation: 30 s");
-            System.out.println(" ");
-            System.out.println("Sugar: " + sugar);
-            System.out.println(" ");
-            System.out.println("Turns money: " + e_money);
+            System.out.println("You must input ($" + (value - m_bill) + ") more");
+            m_bill = m_bill + f_bill();
         }
+
+        int surbill = m_bill - value;
+
+        System.out.println("Product: aromática");
+        System.out.println("Time of creation: 30 s");
+        System.out.println(" ");
+        System.out.println("Sugar: " + sugar);
+        System.out.println(" ");
+        System.out.println("Turns money: " + surbill);
+
         System.out.println("Thanks for use the coffee machine");
 
     }
 
-    public static void f_cafe_negro(int m_bill, boolean sugar){
+    public static void f_cafe_negro(int m_bill, boolean sugar) {
         //Description: process for the cafe negro
         int value = 1000;
 
-        int e_money = m_bill - value;
-
-        if (e_money < 0) {
+        while (m_bill < value) {
             System.err.println("Error: sorry, but you don't have the enough money for this product");
-            System.out.println("Do again the process");
-        } else {
-            System.out.println("Product: cafe negro");
-            System.out.println("Time of creation: 30 s");
-            System.out.println(" ");
-            System.out.println("Sugar: " + sugar);
-            System.out.println(" ");
-            System.out.println("Turns money: " + e_money);
+            System.out.println("You must input ($" + (value - m_bill) + ") more");
+            m_bill = m_bill + f_bill();
         }
+
+        int surbill = m_bill - value;
+
+        System.out.println("Product: aromática");
+        System.out.println("Time of creation: 30 s");
+        System.out.println(" ");
+        System.out.println("Sugar: " + sugar);
+        System.out.println(" ");
+        System.out.println("Turns money: " + surbill);
+
         System.out.println("Thanks for use the coffee machine");
     }
 
-    public static void f_cafe_con_leche(int m_bill, boolean sugar){
+    public static void f_cafe_con_leche(int m_bill, boolean sugar) {
         //Description: process for cafe con leche
         int value = 1900;
 
-        int e_money = m_bill - value;
-
-        if (e_money < 0) {
+        while (m_bill < value) {
             System.err.println("Error: sorry, but you don't have the enough money for this product");
-            System.out.println("Do again the process");
-        } else {
-            System.out.println("Product: cafe con leche");
-            System.out.println("Time of creation: 45 s");
-            System.out.println(" ");
-            System.out.println("Sugar: " + sugar);
-            System.out.println(" ");
-            System.out.println("Turns money: " + e_money);
+            System.out.println("You must input ($" + (value - m_bill) + ") more");
+            m_bill = m_bill + f_bill();
         }
+
+        int surbill = m_bill - value;
+
+        System.out.println("Product: aromática");
+        System.out.println("Time of creation: 45 s");
+        System.out.println(" ");
+        System.out.println("Sugar: " + sugar);
+        System.out.println(" ");
+        System.out.println("Turns money: " + surbill);
+
         System.out.println("Thanks for use the coffee machine");
     }
 
-    public static void f_capuchino(int m_bill, boolean sugar){
+    public static void f_capuchino(int m_bill, boolean sugar) {
         //Description: process for the capuchino
         int value = 2500;
 
-        int e_money = m_bill - value;
-
-        if (e_money < 0) {
+        while (m_bill < value) {
             System.err.println("Error: sorry, but you don't have the enough money for this product");
-            System.out.println("Do again the process");
-        } else {
-            System.out.println("Product: capuchino");
-            System.out.println("Time of creation: 60 s");
-            System.out.println(" ");
-            System.out.println("Sugar: " + sugar);
-            System.out.println(" ");
-            System.out.println("Turns money: " + e_money);
+            System.out.println("You must input ($" + (value - m_bill) + ") more");
+            m_bill = m_bill + f_bill();
         }
+
+        int surbill = m_bill - value;
+
+        System.out.println("Product: aromática");
+        System.out.println("Time of creation: 60 s");
+        System.out.println(" ");
+        System.out.println("Sugar: " + sugar);
+        System.out.println(" ");
+        System.out.println("Turns money: " + surbill);
+
         System.out.println("Thanks for use the coffee machine");
     }
 
-    public static void f_mocachino(int m_bill, boolean sugar){
+    public static void f_mocachino(int m_bill, boolean sugar) {
         //Description: process for the capuchino
         int value = 2700;
 
-        int e_money = m_bill - value;
-
-        if (e_money < 0) {
+        while (m_bill < value) {
             System.err.println("Error: sorry, but you don't have the enough money for this product");
-            System.out.println("Do again the process");
-        } else {
-            System.out.println("Product: mocachino");
-            System.out.println("Time of creation: 70 s");
-            System.out.println(" ");
-            System.out.println("Sugar: " + sugar);
-            System.out.println(" ");
-            System.out.println("Turns money: " + e_money);
+            System.out.println("You must input ($" + (value - m_bill) + ") more");
+            m_bill = m_bill + f_bill();
         }
+
+        int surbill = m_bill - value;
+
+        System.out.println("Product: aromática");
+        System.out.println("Time of creation: 70 s");
+        System.out.println(" ");
+        System.out.println("Sugar: " + sugar);
+        System.out.println(" ");
+        System.out.println("Turns money: " + surbill);
+
         System.out.println("Thanks for use the coffee machine");
     }
 

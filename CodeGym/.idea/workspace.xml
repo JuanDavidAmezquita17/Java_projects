@@ -31,6 +31,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,17 +51,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1589208157312">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1589473324402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1589208157312" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1589473324402" />
+    <state width="1367" height="198" key="GridCell.Tab.0.bottom" timestamp="1589476130172">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1367" height="198" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589476130172" />
+    <state width="1367" height="198" key="GridCell.Tab.0.center" timestamp="1589476130172">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1367" height="198" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589476130172" />
+    <state width="1367" height="198" key="GridCell.Tab.0.left" timestamp="1589476130172">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1367" height="198" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589476130172" />
+    <state width="1367" height="198" key="GridCell.Tab.0.right" timestamp="1589476130172">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1367" height="198" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589476130172" />
     <state x="184" y="26" key="SettingsEditor" timestamp="1589208125907">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589208125907" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1589207709808">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1589473072233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589207709808" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589473072233" />
   </component>
 </project>

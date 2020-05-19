@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f56365d7-45d8-4da8-bef5-4877a3de2405" name="Default Changelist" comment="" />
+    <list default="true" id="e8a7ce84-09c4-4567-99ff-d93d0ed1da35" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +10,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1blX36rMWFjMopW9vhfC2kYiPjq" />
+  <component name="ProjectId" id="1c89sLb6vR877BlEBh34UaEGxF6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Usta.sistemas.Main" />
-      <module name="untitled" />
+      <module name="P2T37_numbers_arrows" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -43,46 +44,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f56365d7-45d8-4da8-bef5-4877a3de2405" name="Default Changelist" comment="" />
-      <created>1589207452093</created>
+      <changelist id="e8a7ce84-09c4-4567-99ff-d93d0ed1da35" name="Default Changelist" comment="" />
+      <created>1589899558700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589207452093</updated>
+      <updated>1589899558700</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1589671286216">
+    <state x="504" y="139" key="FileChooserDialogImpl" timestamp="1589899651949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1589671286216" />
-    <state width="1367" height="198" key="GridCell.Tab.0.bottom" timestamp="1589648470175">
+    <state x="504" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1589899651949" />
+    <state width="1367" height="198" key="GridCell.Tab.0.bottom" timestamp="1589902958967">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589648470175" />
-    <state width="1367" height="198" key="GridCell.Tab.0.center" timestamp="1589648470175">
+    <state width="1367" height="198" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589902958967" />
+    <state width="1367" height="198" key="GridCell.Tab.0.center" timestamp="1589902958967">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589648470175" />
-    <state width="1367" height="198" key="GridCell.Tab.0.left" timestamp="1589648470175">
+    <state width="1367" height="198" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589902958967" />
+    <state width="1367" height="198" key="GridCell.Tab.0.left" timestamp="1589902958967">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589648470175" />
-    <state width="1367" height="198" key="GridCell.Tab.0.right" timestamp="1589648470175">
+    <state width="1367" height="198" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589902958967" />
+    <state width="1367" height="198" key="GridCell.Tab.0.right" timestamp="1589902958967">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589648470175" />
-    <state x="184" y="26" key="SettingsEditor" timestamp="1589208125907">
+    <state width="1367" height="198" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589902958967" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1589899661450">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589208125907" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1589899203626">
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589899661450" />
+    <state x="65" y="4" key="new project wizard" timestamp="1589903089742">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589899203626" />
-    <state x="65" y="4" key="new project wizard" timestamp="1589899558259">
+    <state x="65" y="4" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1589903089742" />
+    <state x="371" y="230" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1589899658331">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="65" y="4" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1589899558259" />
+    <state x="371" y="230" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.768@0.0.1366.768" timestamp="1589899658331" />
   </component>
 </project>

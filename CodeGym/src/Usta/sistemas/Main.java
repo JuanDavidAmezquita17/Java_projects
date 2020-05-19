@@ -1,11 +1,15 @@
 package Usta.sistemas;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 10; i++) {
-            for (int c = 1; i <= 10; i++)
-                System.out.print(c * i+" ");
+        int secondsAfter15 = 0;
+        for (int i = 0; i < 30; i = i + 1) {
+            secondsAfter15 = secondsAfter15 + 1;
         }
+        secondsAfter15 = secondsAfter15 * 60;
+        System.out.println(secondsAfter15);
     }
 }

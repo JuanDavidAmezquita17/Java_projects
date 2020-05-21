@@ -26,7 +26,7 @@ public class Main {
         //Description: this method fill the matrix
         for (int i = 0; i < matrix_votes.length; i = i + 1) {
             matrix_votes[i][0] = (int) Math.floor((Math.random() * 5000) + 1); //Vote for no
-            matrix_votes[i][2] = (int) Math.floor((Math.random() * 5000) + 1); //Votes for yes
+            matrix_votes[i][1] = (int) Math.floor((Math.random() * 5000) + 1); //Votes for yes
         }
         return matrix_votes;
     }
@@ -36,7 +36,7 @@ public class Main {
         int total_yes = 0, total_not = 0;
         for (int i = 0; i < matrix_votes.length; i = i + 1){
             total_not = total_not + matrix_votes[i][0];
-            total_yes = total_yes + matrix_votes[i][0];
+            total_yes = total_yes + matrix_votes[i][1];
         }
         if (total_not == total_yes){
             System.out.println("There is a tie");

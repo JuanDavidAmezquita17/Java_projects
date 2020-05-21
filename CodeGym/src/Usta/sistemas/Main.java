@@ -1,15 +1,19 @@
 package Usta.sistemas;
 
-import java.util.Scanner;
-
-public class Main {
-
     public static void main(String[] args) {
-        int secondsAfter15 = 0;
-        for (int i = 0; i < 30; i = i + 1) {
-            secondsAfter15 = secondsAfter15 + 1;
+
+        Person person = new Person();
+        System.out.println("Age: " + person.age);
+        person.adjustAge(person.age);
+        System.out.println("Adjusted age: " + person.age);
+    }
+
+    public static class Person {
+        public int age = 20;
+
+        public void adjustAge(int age) {
+            age = age + 20;
+            System.out.println("The age in adjustAge() is " + age);
         }
-        secondsAfter15 = secondsAfter15 * 60;
-        System.out.println(secondsAfter15);
     }
 }

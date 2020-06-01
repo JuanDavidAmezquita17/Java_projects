@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33147c2a-9063-4393-b544-9d4b12d0a480" name="Default Changelist" comment="" />
+    <list default="true" id="04af2a07-d5db-4305-a9ad-ca979d45309f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1cXvbYK2NtR6B8wPnAmoAOGG9oE" />
+  <component name="ProjectId" id="1cixfnyUHfgOStmcc6RTIMv0n5d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -22,7 +22,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Usta.sistemas.Main" />
-      <module name="P2T42_text_file" />
+      <module name="P2T44_programmer_txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -41,34 +41,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="33147c2a-9063-4393-b544-9d4b12d0a480" name="Default Changelist" comment="" />
-      <created>1590687824936</created>
+      <changelist id="04af2a07-d5db-4305-a9ad-ca979d45309f" name="Default Changelist" comment="" />
+      <created>1591025320309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590687824936</updated>
+      <updated>1591025320309</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1367" height="198" key="GridCell.Tab.0.bottom" timestamp="1590688568201">
+    <state width="1367" height="198" key="GridCell.Tab.0.bottom" timestamp="1591027314533">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590688568201" />
-    <state width="1367" height="198" key="GridCell.Tab.0.center" timestamp="1590688568201">
+    <state width="1367" height="198" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591027314533" />
+    <state width="1367" height="198" key="GridCell.Tab.0.center" timestamp="1591027314532">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590688568201" />
-    <state width="1367" height="198" key="GridCell.Tab.0.left" timestamp="1590688568201">
+    <state width="1367" height="198" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591027314532" />
+    <state width="1367" height="198" key="GridCell.Tab.0.left" timestamp="1591027314532">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590688568201" />
-    <state width="1367" height="198" key="GridCell.Tab.0.right" timestamp="1590688568201">
+    <state width="1367" height="198" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591027314532" />
+    <state width="1367" height="198" key="GridCell.Tab.0.right" timestamp="1591027314533">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="198" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590688568201" />
-    <state x="346" y="89" key="search.everywhere.popup" timestamp="1590688302251">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1590688302251" />
+    <state width="1367" height="198" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591027314533" />
   </component>
 </project>

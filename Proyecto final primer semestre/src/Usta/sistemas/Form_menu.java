@@ -6,7 +6,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Form_menu extends JFrame {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: From menu.
+	 */
     public Form_menu(){
+        //Description: this is the first form.
         setTitle("SAC version 1.0");
 
         setLayout(new BorderLayout());

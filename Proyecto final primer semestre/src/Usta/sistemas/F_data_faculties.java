@@ -5,8 +5,14 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
 public class F_data_faculties {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: Data of the faculties form.
+	 */
     public static boolean f_add_faculties(String p_code, String p_name, String p_campus, String p_semesters) {
+        //Description: This method add a facultie.
         boolean result;
         try {
             File my_file = new File("C:\\Program Files\\Proyecto final primer semestre\\src\\Usta\\sistemas\\faculties.txt");

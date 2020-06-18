@@ -6,6 +6,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class File_data_student {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: Data of the students form.
+	 */
     public static boolean f_add_student(String p_name, String p_lastname, String p_faculty) {
         boolean result;
         try {

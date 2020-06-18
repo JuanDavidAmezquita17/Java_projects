@@ -7,7 +7,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class F_data_show_students {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: Form that read the students information.
+	 */
     public static boolean f_add_student(String p_name, String p_lastname, String p_faculty) {
+        //This method read the students information.
         boolean result;
         try {
             File my_file = new File("C:\\Users\\ASUS\\Documents\\Textos de prueba para java\\Student names.txt");

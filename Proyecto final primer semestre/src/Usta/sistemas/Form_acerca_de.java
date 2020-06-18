@@ -6,7 +6,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Form_acerca_de extends JFrame {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: This is the form with the information about me.
+	 */
     public Form_acerca_de(){
+        //description: this is the form.
         setTitle("SAC version 1.0");
 
         setLayout(new BorderLayout());

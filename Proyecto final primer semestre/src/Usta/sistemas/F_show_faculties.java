@@ -4,7 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 
 public class F_show_faculties extends JDialog {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: From that show the information.
+	 */
     public F_show_faculties(java.awt.Frame parent){
+        //Description: This method is the form.
         super (parent, true);
         setTitle("SAC version 1.0");
         JPanel panel_superior = new JPanel();

@@ -6,9 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class F_faculties extends JFrame {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: form that save the faculties.
+	 */
     JTextField box_1, box_2, box_3, box_4;
 
     public F_faculties() {
+        //Description: The main form for the user to enter the data
         setTitle("SAC version 1.0");
 
         setLayout(new BorderLayout());

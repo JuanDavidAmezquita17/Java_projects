@@ -7,7 +7,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class F_data_show_faculties {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: Form that show the data of the faculties.
+	 */
     public static boolean f_add_faculties(String p_code, String p_name, String p_campus, String p_semesters) {
+        //Description: this is the form
         boolean result;
         try {
             File my_file = new File("C:\\Users\\ASUS\\Documents\\Textos de prueba para java\\faculties.txt");

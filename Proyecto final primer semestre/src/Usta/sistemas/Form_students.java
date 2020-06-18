@@ -6,6 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Form_students extends JFrame {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: This is the form of the user to enter the students data.
+	 */
     JTextField box_1, box_2, box_3;
 
     public Form_students() {

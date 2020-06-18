@@ -6,7 +6,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Form_principal extends JFrame {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: This is the form with the main menu.
+	 */
     public Form_principal(){
+        //Description: the main menu form
         setTitle("SAC version 1.0");
 
         //Panel de arriba
@@ -129,10 +134,12 @@ public class Form_principal extends JFrame {
     }
 
     private void f_open_form_show_student(java.awt.event.ActionEvent evt){
+        //Description: this method call the f_show_students
         F_show_students f_show_students = new F_show_students(this);
     }
 
     private  void f_open_form_show_faculties(java.awt.event.ActionEvent evt){
+        //Description: this method show the f_show_faculties
         F_show_faculties f_show_faculties = new F_show_faculties(this);
     }
 

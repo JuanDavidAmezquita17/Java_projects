@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class F_show_students extends JDialog {
+    /*Author: Juan David Amezquita Nuñez
+	  Date: 18/06/2020
+	  Description: This form show the data of the students.
+	 */
     public F_show_students(java.awt.Frame parent){
         super (parent, true);
         setTitle("SAC version 1.0");
